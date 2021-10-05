@@ -1,14 +1,11 @@
 "use strict";
 
-let action;
-let num1;
-let num2;
 let result;
 
 
-action = prompt('Какое действие вы хотите совершить? add -сложение; sub -вычитание; mult -умножение; div -деление');
-num1 = prompt('Введите первое число');
-num2 = prompt('Введите второе число');
+const action = prompt('Какое действие вы хотите совершить? add -сложение; sub -вычитание; mult -умножение; div -деление');
+const num1 = prompt('Введите первое число');
+const num2 = prompt('Введите второе число');
 
 if (action == 'add') {
     result = +num1 + +num2;
